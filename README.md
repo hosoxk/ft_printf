@@ -1,4 +1,2 @@
-C programming can be very tedious when one doesn’t have access to the highly useful
-standard functions. This project is about understanding the way these functions work,
-implementing and learning to use them. Your will create your own library. It will be
-helpful since you will use it in your next C school assignments.
+You will discover a popular and versatile C function: printf(). This exercise is a great
+opportunity to improve your programming skills. It is of moderate difficulty.
