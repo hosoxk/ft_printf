@@ -6,11 +6,8 @@
 /*   By: yde-rudd <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/25 14:13:58 by yde-rudd          #+#    #+#             */
-<<<<<<< HEAD
-/*   Updated: 2024/07/21 18:22:23 by yde-rudd         ###   ########.fr       */
-=======
+/*   Updated: 2024/07/23 15:31:32 by yde-rudd         ###   ########.fr       */
 /*   Updated: 2024/06/26 14:58:02 by yde-rudd         ###   ########.fr       */
->>>>>>> 6c296124a82e854905e4ad856a2b8f50ca33a25a
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,11 +24,7 @@ int	ft_printf_string(const char *str)
 		write(1, "(null)", 6);
 		return (6);
 	}
-<<<<<<< HEAD
-	while (str[i])
-=======
 	while (str[i] != '\0')
->>>>>>> 6c296124a82e854905e4ad856a2b8f50ca33a25a
 	{
 		write(1, &str[i], 1);
 		i++;
